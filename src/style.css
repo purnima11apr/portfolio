@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Inter', sans-serif;
+}
+
+.navbar{
+    background-color: lightgray;
+    text-align: center;
+    padding: 10px;
+}
+
+.navbar h2{
+    color: rgb(75, 70, 70);
+    margin: 10px;
+}
+
+.menu a{
+    
+    
+    text-decoration: none;
+    color: rgb(75, 70, 70);
+    margin: 5px;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+.menu a:hover{
+    background-color: rgb(205, 182, 182);
+    cursor: pointer;
+}
+.aboutMe{
+    padding: 10px;
+}
+
+.aboutMe h2{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(75, 70, 70);
+}
+
+.myImage{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 580px;
+    margin-block: 20px;
+}
+
+.section{
+   border-top: 1px solid black;
+   padding: 10px;
+   margin-top: 10px;
+}
+
+.section h2{
+    text-align: center;
+    margin: 10px;
+    color: rgb(75, 70, 70);
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.footer{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(205, 182, 182);
+   padding: 5px;
+   margin-top: 10px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: tomato;
+    margin: 5px;
+}
